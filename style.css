@@ -228,8 +228,8 @@ form .btn-default:hover {
     color: white;
 }
 
-ul#footer-social-logo {
-    margin-bottom: 10px;
+ul#footer-social-logo-contain {
+    margin-bottom: 20px;
 }
 
 #footer-about-freelancer span a {

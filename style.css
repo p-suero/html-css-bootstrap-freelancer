@@ -44,7 +44,9 @@ footer div#footer-bottom  {
     padding: 15px 0;
 }
 
-/*inizio selettori specifici (inseriti in ordine di applicazione)*/
+/* inizio selettori specifici (inseriti in ordine di applicazione) */
+
+/* selettori sezione "header" */
 .navbar-brand {
     font-size: 20px;
 }
@@ -78,6 +80,7 @@ footer div#footer-bottom  {
     background-color: transparent;
 }
 
+/* selettori sezione "jumbortron" */
 .jumbotron h1 {
     font-weight: bold;
     font-size: 40px;
@@ -126,6 +129,7 @@ footer div#footer-bottom  {
     background-color: white;
 }
 
+/* selettori sezione "portfolio"*/
 section  h2 {
     font-size: 37px;
     font-weight: bold;
@@ -146,6 +150,7 @@ section#portfolio .star-separate::after {
     border-radius: 15px;
 }
 
+/* selettori sezione "about" */
 #about p {
     font-size: 1.3em;
     font-weight: 400;
@@ -172,6 +177,7 @@ section#about .btn-default span {
     padding-right: 5px;
 }
 
+/* selettori sezione "contact" */
 section#contact .star-separate::before,
 section#contact .star-separate::after {
     background-color: #2C3E50;
@@ -202,6 +208,7 @@ form .btn-default:hover {
     background-color: #159a80;
 }
 
+/* selettori sezione footer */
 #footer-top h3 {
     font-weight: 600;
     padding-bottom: 20px;

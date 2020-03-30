@@ -1,0 +1,149 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+nav.navbar-default {
+    background-color: #2C3E50;
+    border: none;
+    margin: 0;
+    padding: 25px 0;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+section.jumbotron {
+    padding-top: 150px;
+    background-color: #1ABC9C;
+}
+
+section#portfolio {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    color: #2C3E50;
+}
+
+section#about {
+    background-color: #1ABC9C;
+    padding: 80px 0;
+}
+
+.navbar-brand {
+    font-size: 20px;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a {
+    color: inherit;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar-brand:focus,
+ .navbar-default .navbar-brand:hover,
+ .navbar-default .navbar-toggle:focus,
+ .navbar-default .navbar-toggle:hover {
+    color: inherit;
+    background-color: inherit;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #1ABC9C;
+    background-color: transparent;
+}
+
+.jumbotron h1 {
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
+.jumbotron img {
+    max-width: 35%;
+}
+
+.star-separate {
+    width: 280px;
+    position: relative;
+    padding: 35px 0;
+    color: inherit;
+}
+
+.star-separate i {
+    font-size: 30px;
+}
+
+.star-separate::before {
+    content: "";
+    height: 4px;
+    width: 100px;
+    border-radius: 20px;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background-color: white;
+}
+
+.star-separate::after {
+    content: "";
+    height: 4px;
+    width: 100px;
+    border-radius: 20px;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    background-color: white;
+}
+
+section  h2 {
+    font-size: 37px;
+    font-weight: bold;
+    margin: 0;
+    color: inherit;
+}
+
+section#portfolio .star-separate::before,
+section#portfolio .star-separate::after {
+    background-color: #2C3E50;
+}
+
+.image-contain {
+    padding-bottom: 30px;
+}
+
+.card {
+    border-radius: 15px;
+}
+
+#about p {
+    font-size: 1.4em;
+    font-weight: 400;
+    padding-bottom: 50px;
+}
+
+.btn-default {
+    color: white;
+    background-color: #1ABC9C;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 18px;
+}
+
+.btn-default:hover {
+    color: black;
+    background-color: white;
+    border: 0;
+}
+
+.btn-default span {
+    color: inherit;
+    padding-right: 5px;
+}

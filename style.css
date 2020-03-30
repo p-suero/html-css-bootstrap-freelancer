@@ -1,3 +1,4 @@
+/* selettori delle sezioni */
 body {
     font-family: 'Montserrat', sans-serif;
     color: white;
@@ -33,6 +34,17 @@ section#contact {
     padding: 80px 0;
 }
 
+footer div#footer-top {
+    background-color: #2c3e50;
+    padding: 50px 0;
+}
+
+footer div#footer-bottom  {
+    background-color: #1A252F;
+    padding: 15px 0;
+}
+
+/*inizio selettori specifici (inseriti in ordine di applicazione)*/
 .navbar-brand {
     font-size: 20px;
 }
@@ -180,7 +192,7 @@ form {
     padding-bottom: 150px;
 }
 
-.form-group button{
+.form-group button {
     padding: 20px 30px;
     margin-top: 15px;
 }
@@ -188,4 +200,31 @@ form {
 form .btn-default:hover {
     color: #fff;
     background-color: #159a80;
+}
+
+#footer-top h3 {
+    font-weight: 600;
+    padding-bottom: 20px;
+    margin-top: 30px;
+}
+
+#footer-info-contain,
+#footer-about-freelancer {
+    font-size: 1.3em;
+}
+
+#footer-social-logo-contain i {
+    font-size: 1.3em;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 15px;
+    color: white;
+}
+
+ul#footer-social-logo {
+    margin-bottom: 10px;
+}
+
+#footer-about-freelancer span a {
+    color: #1abc9c;
 }

@@ -253,7 +253,7 @@ form .btn-default:hover {
     margin-bottom: 20px;
 }
 
-.footer-top-container:not(:first-child) {
+.footer-top-container {
     margin-top: 30px;
 }
 

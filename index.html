@@ -24,9 +24,20 @@
                     </div>
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav navbar-right text-uppercase">
-                            <li><a href="#">Portofolio</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li>
+                                <a href="#portfolio">
+                                    Portofolio
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#about">
+                                    About
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#contact">
+                                    Contact</a>
+                            </li>
                         </ul>
                     </div><!-- /.navbar-collapse -->
                 </div><!-- /.container -->
@@ -34,7 +45,7 @@
         </header>
         <main>
             <!-- inizio sezione jumbotron -->
-            <section class="jumbotron">
+            <section id="jumbotron" class="jumbotron">
                 <div class="container">
                     <img src="img/avatar.svg" alt="Avatar" class="img-responsive center-block">
                     <h1 class="text-center text-uppercase">Start bootstrap</h1>
@@ -57,42 +68,42 @@
                         <div class="col-xs-12 col-sm-6 col-lg-4">
                             <div class="image-contain">
                                 <a href="#">
-                                    <img class="img-responsive card" src="img/first-card.png" alt="">
+                                    <img class="img-responsive bd-radius-card" src="img/first-card.png" alt="">
                                 </a>
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-lg-4">
                             <div class="image-contain">
                                 <a href="#">
-                                    <img class="img-responsive card" src="img/second-card.png" alt="">
+                                    <img class="img-responsive bd-radius-card" src="img/second-card.png" alt="">
                                 </a>
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-lg-4">
                             <div class="image-contain">
                                 <a href="#">
-                                    <img class="img-responsive card" src="img/third-card.png" alt="">
+                                    <img class="img-responsive bd-radius-card" src="img/third-card.png" alt="">
                                 </a>
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-lg-4">
                             <div class="image-contain">
                                 <a href="#">
-                                    <img class="img-responsive card" src="img/fourth-card.png" alt="">
+                                    <img class="img-responsive bd-radius-card" src="img/fourth-card.png" alt="">
                                 </a>
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-lg-4">
                             <div class="image-contain">
                                 <a href="#">
-                                    <img class="img-responsive card" src="img/fifth-card.png" alt="">
+                                    <img class="img-responsive bd-radius-card" src="img/fifth-card.png" alt="">
                                 </a>
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-lg-4">
                             <div class="image-contain">
                                 <a href="#">
-                                    <img class="img-responsive card" src="img/sixth-card.png" alt="">
+                                    <img class="img-responsive bd-radius-card" src="img/sixth-card.png" alt="">
                                 </a>
                             </div>
                         </div>
@@ -173,44 +184,29 @@
                 <div id="footer-top">
                     <div class="container">
                         <div class="row">
-                            <div id="footer-info" class="col-xs-12 col-md-4">
+                            <div class="col-xs-12 col-md-4 footer-top-container">
                                 <h3 class="text-uppercase text-center">
                                     location
                                 </h3>
-                                <address id="footer-info-contain" class="text-center">
+                                <address class="text-center">
                                   2215 John Daniel Drive
                                   <br>
                                   Clark, MO 65243
                                 </address>
                             </div>
-                            <div id="footer-social" class="col-xs-12 col-md-4">
+                            <div class="col-xs-12 col-md-4 footer-top-container">
                                 <h3 class="text-uppercase text-center">
                                     around the web
                                 </h3>
-                                <ul id="footer-social-logo-contain" class=" list-unstyled list-inline text-center">
-                                    <li>
-                                        <a href="#">
-                                            <i class="fab fa-facebook-f"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="fab fa-twitter"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="fab fa-linkedin-in"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="fab fa-dribbble"></i>
-                                        </a>
-                                    </li>
-                                </ul>
+                                <div class="social-icons text-center">
+                                    <i class="fab fa-facebook-f"></i>
+                                    <i class="fab fa-twitter"></i>
+                                    <i class="fab fa-linkedin-in"></i>
+                                    <i class="fab fa-dribbble"></i>
+                                </div>
+
                             </div>
-                            <div id="footer-about-freelancer" class="col-xs-12 col-md-4">
+                            <div id="footer-about-freelancer" class="col-xs-12 col-md-4 footer-top-container">
                                 <h3 class="text-uppercase text-center">
                                     about freelancer
                                 </h3>

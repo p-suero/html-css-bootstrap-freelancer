@@ -4,6 +4,10 @@ body {
     color: white;
 }
 
+main {
+    padding-top: 90px;
+}
+
 nav.navbar-default {
     background-color: #2C3E50;
     border: none;
@@ -13,25 +17,24 @@ nav.navbar-default {
     font-size: 16px;
 }
 
+section {
+    padding: 130px 0;
+}
+
 section.jumbotron {
-    padding-top: 150px;
     background-color: #1ABC9C;
 }
 
 section#portfolio {
-    padding-top: 50px;
-    padding-bottom: 30px;
     color: #2C3E50;
 }
 
 section#about {
     background-color: #1ABC9C;
-    padding: 80px 0;
 }
 
 section#contact {
     color: #2C3E50;
-    padding: 80px 0;
 }
 
 footer div#footer-top {
@@ -143,11 +146,45 @@ section#portfolio .star-separate::after {
 }
 
 .image-contain {
-    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    position: relative;
+    }
+
+.bd-radius-card {
+    border-radius: 15px;
 }
 
-.card {
+.image-contain:before {
+    content: "\f067";
+    font-weight: bold;
+    font-family: "Font Awesome 5 Free";
+    font-size: 72px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    visibility: hidden;
+    z-index: 3;
+}
+
+.image-contain:after {
+    content: "";
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    position: absolute;
     border-radius: 15px;
+    top: 0;
+}
+
+.image-contain:hover:before {
+    visibility: visible;
+}
+
+.image-contain:hover::after {
+    background-color: rgba(26,188,156,.9);
 }
 
 /* selettori sezione "about" */
@@ -210,25 +247,36 @@ form .btn-default:hover {
 /* selettori sezione footer */
 #footer-top h3 {
     font-weight: 600;
-    padding-bottom: 20px;
+}
+
+#footer-top h3 {
+    margin-bottom: 20px;
+}
+
+.footer-top-container:not(:first-child) {
     margin-top: 30px;
 }
 
-#footer-info-contain,
+#footer-top address,
 #footer-about-freelancer {
     font-size: 1.3em;
+    margin-bottom: 0;
 }
 
-#footer-social-logo-contain i {
-    font-size: 1.3em;
+.social-icons i {
+    width: 55px;
+    height: 55px;
+    line-height: 51px;
     border: 2px solid white;
     border-radius: 50%;
-    padding: 15px;
-    color: white;
+    font-size: 1.3em;
+    margin: 0 5px;
+    cursor: pointer;
 }
 
-ul#footer-social-logo-contain {
-    margin-bottom: 20px;
+.social-icons i:hover {
+    background-color: white;
+    color: #2C3E50;
 }
 
 #footer-about-freelancer span a {

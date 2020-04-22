@@ -149,7 +149,12 @@ section#portfolio .star-separate::after {
     margin-bottom: 30px;
     border-radius: 15px;
     position: relative;
-    }
+    cursor: pointer;
+}
+
+.image-contain a {
+    display: block;
+}
 
 .bd-radius-card {
     border-radius: 15px;

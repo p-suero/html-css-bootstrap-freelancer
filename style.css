@@ -211,7 +211,7 @@ section#portfolio .star-separate::after {
 .btn-default:hover {
     color: black;
     background-color: white;
-    border: 0;
+    border-color: white;
 }
 
 section#about .btn-default span {
